@@ -1,0 +1,114 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+footer {
+    padding: aqua;
+}
+
+.header-container {
+    margin-top: 15px;
+    text-align: center;
+    color: rgb(92, 92, 197);
+    font-size: larger;
+    text-shadow: 2px 3px rgb(202, 199, 199);
+    /* border: thick solid gray; */
+}
+
+.container {
+    background-color: rgb(167, 167, 167);
+    padding: 10px;
+    margin: 50px;
+    margin-top: 30px;
+    display: flex;
+    flex-direction: row; 
+    justify-content:center;
+    align-items:center;
+    border-radius: 10px;
+    box-shadow: 0px 2px 4px 0px rgb(0, 0, 0, 0.9);
+}
+
+.items {
+    background-color: rgb(245, 16, 16);
+    color:aliceblue;
+    font-size: 25px;
+    padding: 20px;
+    margin: 10px;
+    width: 13%;
+    height: 100px;
+    text-align: center;
+    vertical-align: middle;
+    border-radius: 10px;
+    box-shadow: 0px 2px 4px 0px rgb(0, 0, 0, 0.9);
+    /* line-height: 55px; */
+    /* display: flex; */
+    /* flex: 0; */
+    /* allows it to gro */    
+}
+
+.items:hover{
+    font-size: 0;
+    background-color: salmon;
+    /* transform: rotate(180deg);
+    transition: 0.5s; */
+    /* content: "My name is Thomas Taylor."; */
+}
+
+.items:hover:after {
+    content: attr(data-hover);
+    font-size: 23px;
+}
+
+#header-hr {
+    margin-top: 25px;
+    margin-left: 25px;
+    margin-right: 25px;
+    color: lightblue;
+}
+
+#footer-hr {
+    margin-bottom: 25px;
+    margin-left: 25px; 
+    margin-right: 25px;
+}
+
+#biography-container {
+    display: flex;
+    /* border: thin solid blue; */
+    /* border-radius: 5px; */
+    margin: 20px 0px 25px 10px;
+    padding: 5px 10px 5px 10 px;
+}
+
+#contact-container {
+    margin-left: 40px;
+    margin-top: 10px;
+    margin-bottom: 15px;
+}
+
+h3 {
+    margin-left: 30px;
+}
+
+h4 {
+    /* vertical-align: text-bottom; */
+    margin-top: 10px;
+
+}
+
+body {
+    /* width: 70%; */
+    margin: auto;
+}
+
+h1 {
+    font-size: 2rem;
+}
+
+ul {
+    margin-left: 35px;
+    list-style: disc inside;
+}

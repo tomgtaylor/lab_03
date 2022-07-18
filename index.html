@@ -4,9 +4,66 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title> LAB 03: Guessing game </title>
+    <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-    
+    <header>
+        <h1>Lab 03: Guessing Game</h1>
+    </header>
+
+    <main>
+        <main>
+            <h4>Hover over below red boxes to view info</h4>
+            <div class="container">
+                <div class="item-1 items" data-hover="My name is Tom Taylor">My Name</div>   
+                <div class="item-2 items" data-hover="My age is 36">My Age</div>  
+                <div class="item-3 items" data-hover="My favorite movie is Star Wars">Favorite Movie</div>
+                <div class="item-4 items" data-hover="My home is Spokane, WA">My Home</div>
+                <div class="item-5 items" data-hover="I have lived in Nepal, China, and Taiwan">My Travel</div> 
+            </div>
+
+            <button onclick="triviaGame()">Click to Start Trivia Game.</button>
+
+            <h3>Film: Top 10 List</h3>
+            <div id="top10-container">
+                <ol>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                </ol>
+            </div>
+
+            <h3>Short Biography</h3>
+            <div id="biography-container"> 
+                <ul>
+                    <li>I live in Spokane, Washington.</li>
+                    <li>I graduated from WSU. BA in Social Science.</li>
+                    <li>I previously worked in a psychiatric hospital.</li>
+                </ul>
+            </div> 
+            <h3>Contact Info</h3>
+            <div>
+                <ul  id="contact-container">
+                    <li> Email: Tomgtaylor@yahoo.com</li>
+                    <li> Phone: 509.828.2843</li>
+                    <li> Github: <a href="https://github.com/tomgtaylor">Tom's Github</a></li> 
+                    <li> Linkedin: <a href="https://www.linkedin.com/in/tom-g-taylor-6559b8ab/">Tom's Linkedin</a></li>
+                </ul>
+            </div>
+
+    </main>
+
+    <footer>
+        <script src="js/app.js"></script>
+        <p id="copyright"> &copy Tom Taylor</p>
+    </footer>
 </body>
 </html>
