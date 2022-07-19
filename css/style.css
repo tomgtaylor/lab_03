@@ -75,6 +75,12 @@ footer {
     margin-right: 25px;
 }
 
+#top10-container {
+    margin-left: 55px;
+    margin-top: 10px;
+    margin-bottom: 15px;
+}
+
 #biography-container {
     display: flex;
     /* border: thin solid blue; */
