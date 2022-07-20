@@ -10,6 +10,9 @@ const myHome = "Spokane";
 const myTravel = "Canada";
 const yearBorn = '1985';
 let score = 0;
+function newFunction(){
+
+
 //-------------------------------------------------------- Question 1: Name
 let q1 = prompt(`Is ${myName} my name?`);
 q1 = q1.toLowerCase();
@@ -94,7 +97,7 @@ for(let i = 0; i < 5; i++) {
     let q7 = prompt(`What is one of ${myName}'s favorite sports?`);
     q7 = q7.toLowerCase();
     if (q7 == q7Answers[0] || q7 == q7Answers[1] || q7 == q7Answers[3] || q7 == q7Answers[4]) {
-        alert(`Congratulations, ${userName}, ${q7Answers[i]} is one of ${myName}'s favorite sports.`);
+        alert(`Congratulations, ${userName} , that is one of ${myName}'s favorite sports.`);
         score++;
         break;
     } else {
@@ -107,3 +110,5 @@ alert(`${userName}, you have answered ${score} questions correctly.`);
 // document.write(`${userName}, here are the answers. My name is ${myName}, my age is ${myAge}, my favorite film is ${favMovie}, I live in ${myHome}, and I used to live in ${myTravel}.`);
 document.write(`Ok ${userName}, let's compile your score.`);
 document.write(`You answered ${score} out of 7 questions correctly.`);
+}
+newFunction(); 
