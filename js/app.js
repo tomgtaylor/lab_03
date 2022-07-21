@@ -2,7 +2,7 @@
 
 let userName = prompt("What is your name?");
 alert(`Welcome ${userName}.`);
-//-------------------------------------------------------------------
+//------------------------------------------------------- Global variables
 const myName = "Tom";
 const myAge = "36";
 const favMovie = "Star Wars";
@@ -10,8 +10,10 @@ const myHome = "Spokane";
 const myTravel = "Canada";
 const yearBorn = '1985';
 let score = 0;
-function newFunction(){
 
+//-------------------------------------------------------- Function
+
+function newFunction(){
 
 //-------------------------------------------------------- Question 1: Name
 let q1 = prompt(`Is ${myName} my name?`);
