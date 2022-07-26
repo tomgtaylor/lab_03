@@ -113,4 +113,4 @@ alert(`${userName}, you have answered ${score} questions correctly.`);
 document.write(`Ok ${userName}, let's compile your score.`);
 document.write(`You answered ${score} out of 7 questions correctly.`);
 }
-newFunction(); 
+newFunction();
